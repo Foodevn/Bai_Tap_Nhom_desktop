@@ -1,0 +1,16 @@
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\bin\Debug\Quan_ly_Shop_Quan_ao_1.exe.config
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\bin\Debug\Quan_ly_Shop_Quan_ao_1.exe
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\bin\Debug\Quan_ly_Shop_Quan_ao_1.pdb
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\bin\Debug\MetroFramework.Design.dll
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\bin\Debug\MetroFramework.dll
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.csproj.AssemblyReference.cache
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.formDangNhap.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.Properties.Resources.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.csproj.GenerateResource.cache
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.csproj.CoreCompileInputs.cache
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_.1E3C3D8E.Up2Date
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.exe
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.pdb
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\quan_ly_shop_quan_ao.formShop.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.menu.resources
