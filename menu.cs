@@ -1,4 +1,5 @@
-﻿using quan_ly_shop_quan_ao;
+﻿using Chitietphieunhau;
+using quan_ly_shop_quan_ao;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -83,7 +84,7 @@ namespace Quan_ly_Shop_Quan_ao_1
 
 		private void btnBaoCao_Click(object sender, EventArgs e)
 		{
-			ActivateButton(sender);
+			OpenChildForm(new FormBaoCaoDanhThu(), sender);
 		}
 
 		private void btnQuanLy_Click(object sender, EventArgs e)

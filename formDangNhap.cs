@@ -15,11 +15,7 @@ namespace Quan_ly_Shop_Quan_ao_1
 	{
 		public formDangNhap()
 		{
-			InitializeComponent();
-			
-			
-			
-			
+			InitializeComponent();			
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -30,7 +26,7 @@ namespace Quan_ly_Shop_Quan_ao_1
 				lbThongBao.ForeColor=Color.Red;
 			}
 			else { 
-			Form form = new formShop();
+			Form form = new menu();
 			form.ShowDialog();
 				Form formDN=new formDangNhap();
 				formDN.Close();

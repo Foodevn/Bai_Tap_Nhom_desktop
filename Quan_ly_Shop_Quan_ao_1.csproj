@@ -70,7 +70,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormBaoCaoDanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBaoCaoDanhThu.Designer.cs">
+      <DependentUpon>FormBaoCaoDanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChitietphieunhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChitietphieunhap.Designer.cs">
+      <DependentUpon>FormChitietphieunhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDanhMucHangSapHet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDanhMucHangSapHet.Designer.cs">
+      <DependentUpon>FormDanhMucHangSapHet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQuanLyTaiKhoanNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQuanLyTaiKhoanNguoiDung.Designer.cs">
+      <DependentUpon>FormQuanLyTaiKhoanNguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmXemDSHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmXemDSHang.Designer.cs">
+      <DependentUpon>FrmXemDSHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmXemLai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmXemLai.Designer.cs">
+      <DependentUpon>FrmXemLai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmXemLaiHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmXemLaiHoaDon.Designer.cs">
+      <DependentUpon>FrmXemLaiHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="HangHoa.cs" />
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemeColor.cs" />
     <Compile Include="formDangNhap.cs">
       <SubType>Form</SubType>
@@ -92,11 +140,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBaoCaoDanhThu.resx">
+      <DependentUpon>FormBaoCaoDanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChitietphieunhap.resx">
+      <DependentUpon>FormChitietphieunhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formDangNhap.resx">
       <DependentUpon>formDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDanhMucHangSapHet.resx">
+      <DependentUpon>FormDanhMucHangSapHet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQuanLyTaiKhoanNguoiDung.resx">
+      <DependentUpon>FormQuanLyTaiKhoanNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formShop.resx">
       <DependentUpon>formShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXemDSHang.resx">
+      <DependentUpon>FrmXemDSHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXemLai.resx">
+      <DependentUpon>FrmXemLai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXemLaiHoaDon.resx">
+      <DependentUpon>FrmXemLaiHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
@@ -111,6 +180,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

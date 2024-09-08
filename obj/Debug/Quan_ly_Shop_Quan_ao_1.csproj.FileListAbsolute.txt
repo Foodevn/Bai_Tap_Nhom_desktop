@@ -14,3 +14,11 @@ C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Q
 C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.pdb
 C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\quan_ly_shop_quan_ao.formShop.resources
 C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.menu.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Quan_ly_Shop_Quan_ao_1.test.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Chitietphieunhau.FormBaoCaoDanhThu.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Chitietphieunhau.FormChitietphieunhap.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\XemLaiHoaDon.FrmXemDSHang.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\XemLaiHoaDon.FrmXemLai.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\XemLaiHoaDon.FrmXemLaiHoaDon.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Chitietphieunhau.FormDanhMucHangSapHet.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Chitietphieunhau.FormQuanLyTaiKhoanNguoiDung.resources
