@@ -32,8 +32,8 @@
 			this.panelMenu = new System.Windows.Forms.Panel();
 			this.button4 = new System.Windows.Forms.Button();
 			this.btnTroGiup = new System.Windows.Forms.Button();
-			this.btnQuanLy = new System.Windows.Forms.Button();
-			this.btnBaoCao = new System.Windows.Forms.Button();
+			this.btnDSmatHang = new System.Windows.Forms.Button();
+			this.btnHoaDon = new System.Windows.Forms.Button();
 			this.btnNguoidung = new System.Windows.Forms.Button();
 			this.panelLogo = new System.Windows.Forms.Panel();
 			this.label1 = new System.Windows.Forms.Label();
@@ -51,8 +51,8 @@
 			this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
 			this.panelMenu.Controls.Add(this.button4);
 			this.panelMenu.Controls.Add(this.btnTroGiup);
-			this.panelMenu.Controls.Add(this.btnQuanLy);
-			this.panelMenu.Controls.Add(this.btnBaoCao);
+			this.panelMenu.Controls.Add(this.btnDSmatHang);
+			this.panelMenu.Controls.Add(this.btnHoaDon);
 			this.panelMenu.Controls.Add(this.btnNguoidung);
 			this.panelMenu.Controls.Add(this.panelLogo);
 			this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -70,15 +70,16 @@
 			this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
 			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
 			this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button4.Location = new System.Drawing.Point(0, 400);
+			this.button4.Location = new System.Drawing.Point(0, 288);
 			this.button4.Name = "button4";
 			this.button4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-			this.button4.Size = new System.Drawing.Size(254, 80);
+			this.button4.Size = new System.Drawing.Size(254, 52);
 			this.button4.TabIndex = 5;
 			this.button4.Text = "button1";
 			this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.button4.UseVisualStyleBackColor = false;
+			this.button4.Click += new System.EventHandler(this.button4_Click);
 			// 
 			// btnTroGiup
 			// 
@@ -89,10 +90,10 @@
 			this.btnTroGiup.ForeColor = System.Drawing.SystemColors.ControlLightLight;
 			this.btnTroGiup.Image = ((System.Drawing.Image)(resources.GetObject("btnTroGiup.Image")));
 			this.btnTroGiup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnTroGiup.Location = new System.Drawing.Point(0, 320);
+			this.btnTroGiup.Location = new System.Drawing.Point(0, 236);
 			this.btnTroGiup.Name = "btnTroGiup";
 			this.btnTroGiup.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-			this.btnTroGiup.Size = new System.Drawing.Size(254, 80);
+			this.btnTroGiup.Size = new System.Drawing.Size(254, 52);
 			this.btnTroGiup.TabIndex = 4;
 			this.btnTroGiup.Text = "     Trợ Giúp";
 			this.btnTroGiup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -100,45 +101,45 @@
 			this.btnTroGiup.UseVisualStyleBackColor = false;
 			this.btnTroGiup.Click += new System.EventHandler(this.btnTroGiup_Click);
 			// 
-			// btnQuanLy
+			// btnDSmatHang
 			// 
-			this.btnQuanLy.BackColor = System.Drawing.Color.Transparent;
-			this.btnQuanLy.Dock = System.Windows.Forms.DockStyle.Top;
-			this.btnQuanLy.FlatAppearance.BorderSize = 0;
-			this.btnQuanLy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnQuanLy.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.btnQuanLy.Image = ((System.Drawing.Image)(resources.GetObject("btnQuanLy.Image")));
-			this.btnQuanLy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnQuanLy.Location = new System.Drawing.Point(0, 240);
-			this.btnQuanLy.Name = "btnQuanLy";
-			this.btnQuanLy.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-			this.btnQuanLy.Size = new System.Drawing.Size(254, 80);
-			this.btnQuanLy.TabIndex = 3;
-			this.btnQuanLy.Text = "     Quản Lý";
-			this.btnQuanLy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnQuanLy.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.btnQuanLy.UseVisualStyleBackColor = false;
-			this.btnQuanLy.Click += new System.EventHandler(this.btnQuanLy_Click);
+			this.btnDSmatHang.BackColor = System.Drawing.Color.Transparent;
+			this.btnDSmatHang.Dock = System.Windows.Forms.DockStyle.Top;
+			this.btnDSmatHang.FlatAppearance.BorderSize = 0;
+			this.btnDSmatHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnDSmatHang.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnDSmatHang.Image = ((System.Drawing.Image)(resources.GetObject("btnDSmatHang.Image")));
+			this.btnDSmatHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnDSmatHang.Location = new System.Drawing.Point(0, 184);
+			this.btnDSmatHang.Name = "btnDSmatHang";
+			this.btnDSmatHang.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+			this.btnDSmatHang.Size = new System.Drawing.Size(254, 52);
+			this.btnDSmatHang.TabIndex = 3;
+			this.btnDSmatHang.Text = "     Danh sách mặt hàng";
+			this.btnDSmatHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnDSmatHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnDSmatHang.UseVisualStyleBackColor = false;
+			this.btnDSmatHang.Click += new System.EventHandler(this.btnQuanLy_Click);
 			// 
-			// btnBaoCao
+			// btnHoaDon
 			// 
-			this.btnBaoCao.BackColor = System.Drawing.Color.Transparent;
-			this.btnBaoCao.Dock = System.Windows.Forms.DockStyle.Top;
-			this.btnBaoCao.FlatAppearance.BorderSize = 0;
-			this.btnBaoCao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.btnBaoCao.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.btnBaoCao.Image = ((System.Drawing.Image)(resources.GetObject("btnBaoCao.Image")));
-			this.btnBaoCao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnBaoCao.Location = new System.Drawing.Point(0, 160);
-			this.btnBaoCao.Name = "btnBaoCao";
-			this.btnBaoCao.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-			this.btnBaoCao.Size = new System.Drawing.Size(254, 80);
-			this.btnBaoCao.TabIndex = 2;
-			this.btnBaoCao.Text = "     Báo Cáo ";
-			this.btnBaoCao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.btnBaoCao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.btnBaoCao.UseVisualStyleBackColor = false;
-			this.btnBaoCao.Click += new System.EventHandler(this.btnBaoCao_Click);
+			this.btnHoaDon.BackColor = System.Drawing.Color.Transparent;
+			this.btnHoaDon.Dock = System.Windows.Forms.DockStyle.Top;
+			this.btnHoaDon.FlatAppearance.BorderSize = 0;
+			this.btnHoaDon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnHoaDon.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnHoaDon.Image = ((System.Drawing.Image)(resources.GetObject("btnHoaDon.Image")));
+			this.btnHoaDon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnHoaDon.Location = new System.Drawing.Point(0, 132);
+			this.btnHoaDon.Name = "btnHoaDon";
+			this.btnHoaDon.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+			this.btnHoaDon.Size = new System.Drawing.Size(254, 52);
+			this.btnHoaDon.TabIndex = 2;
+			this.btnHoaDon.Text = "     Hóa Đơn";
+			this.btnHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnHoaDon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnHoaDon.UseVisualStyleBackColor = false;
+			this.btnHoaDon.Click += new System.EventHandler(this.btnBaoCao_Click);
 			// 
 			// btnNguoidung
 			// 
@@ -152,7 +153,7 @@
 			this.btnNguoidung.Location = new System.Drawing.Point(0, 80);
 			this.btnNguoidung.Name = "btnNguoidung";
 			this.btnNguoidung.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-			this.btnNguoidung.Size = new System.Drawing.Size(254, 80);
+			this.btnNguoidung.Size = new System.Drawing.Size(254, 52);
 			this.btnNguoidung.TabIndex = 1;
 			this.btnNguoidung.Text = "     Người dùng";
 			this.btnNguoidung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -215,7 +216,7 @@
 			this.lblTitle.AutoSize = true;
 			this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
 			this.lblTitle.ForeColor = System.Drawing.SystemColors.Control;
-			this.lblTitle.Location = new System.Drawing.Point(494, 21);
+			this.lblTitle.Location = new System.Drawing.Point(451, 19);
 			this.lblTitle.Name = "lblTitle";
 			this.lblTitle.Size = new System.Drawing.Size(99, 31);
 			this.lblTitle.TabIndex = 0;
@@ -257,8 +258,8 @@
 		private System.Windows.Forms.Button btnNguoidung;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Button btnTroGiup;
-		private System.Windows.Forms.Button btnQuanLy;
-		private System.Windows.Forms.Button btnBaoCao;
+		private System.Windows.Forms.Button btnDSmatHang;
+		private System.Windows.Forms.Button btnHoaDon;
 		private System.Windows.Forms.Panel panelTitleBar;
 		private System.Windows.Forms.Label lblTitle;
 		private System.Windows.Forms.Label label1;

@@ -401,6 +401,7 @@
 			this.txtTongThanhToan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtTongThanhToan.Location = new System.Drawing.Point(119, 124);
 			this.txtTongThanhToan.Name = "txtTongThanhToan";
+			this.txtTongThanhToan.ReadOnly = true;
 			this.txtTongThanhToan.Size = new System.Drawing.Size(152, 22);
 			this.txtTongThanhToan.TabIndex = 2;
 			// 
@@ -433,6 +434,7 @@
 			this.txtTongTienHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtTongTienHang.Location = new System.Drawing.Point(119, 64);
 			this.txtTongTienHang.Name = "txtTongTienHang";
+			this.txtTongTienHang.ReadOnly = true;
 			this.txtTongTienHang.Size = new System.Drawing.Size(152, 22);
 			this.txtTongTienHang.TabIndex = 2;
 			// 

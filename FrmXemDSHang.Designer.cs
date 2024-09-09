@@ -114,9 +114,9 @@
 			// 
 			// btnThemHang
 			// 
-			this.btnThemHang.Location = new System.Drawing.Point(856, 46);
+			this.btnThemHang.Location = new System.Drawing.Point(835, 46);
 			this.btnThemHang.Name = "btnThemHang";
-			this.btnThemHang.Size = new System.Drawing.Size(117, 23);
+			this.btnThemHang.Size = new System.Drawing.Size(138, 31);
 			this.btnThemHang.TabIndex = 5;
 			this.btnThemHang.Text = "Thêm mặt hàng";
 			this.btnThemHang.UseVisualStyleBackColor = true;

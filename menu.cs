@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using XemLaiHoaDon;
 
 namespace Quan_ly_Shop_Quan_ao_1
 {
@@ -84,17 +85,22 @@ namespace Quan_ly_Shop_Quan_ao_1
 
 		private void btnBaoCao_Click(object sender, EventArgs e)
 		{
-			OpenChildForm(new FormBaoCaoDanhThu(), sender);
+			OpenChildForm(new FrmXemLaiHoaDon(), sender);
 		}
 
+		
 		private void btnQuanLy_Click(object sender, EventArgs e)
 		{
-			ActivateButton(sender);
+			OpenChildForm(new FrmXemDSHang(), sender);
 		}
 
 		private void btnTroGiup_Click(object sender, EventArgs e)
 		{
 			ActivateButton(sender);
+		}
+		private void button4_Click(object sender, EventArgs e)
+		{
+			OpenChildForm(new test(), sender);
 		}
 		private void OpenChildForm(Form childForm, object btnSender)
 		{
@@ -129,6 +135,7 @@ namespace Quan_ly_Shop_Quan_ao_1
 				activeForm.Close();
 			Reset();
 		}
+
 		//private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
 		//{
 		//	ReleaseCapture();

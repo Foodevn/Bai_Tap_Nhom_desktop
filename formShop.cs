@@ -18,7 +18,13 @@ namespace quan_ly_shop_quan_ao
 		{
 			InitializeComponent();
 			listView1.DoubleClick += new EventHandler(listView1_DoubleClick);
+			start();
 			
+		}
+		
+		public void start()
+		{
+			txtNgayLap.Text = DateTime.Now.ToString();
 			TaiDanhSach1();
 		}
 		public void TaiDanhSach1()

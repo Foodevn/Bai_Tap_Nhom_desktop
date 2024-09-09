@@ -22,21 +22,55 @@ namespace Quan_ly_Shop_Quan_ao_1
 		{
 
 		}
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			// Tạo một DataGridViewButtonColumn mới
+			
+			DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn();
+			btnDelete.HeaderText = "Xóa";
+			btnDelete.Text = "Xóa";
+			btnDelete.UseColumnTextForButtonValue = true; // Hiển thị văn bản trong cột là "Xóa"
+
+			// Thêm cột nút "Xóa" vào DataGridView
+			dataGridView1.Columns.Add(btnDelete);
+		}
+
+		// Xử lý sự kiện nhấn vào nút "Xóa"
+		private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+		{
+			// Kiểm tra xem người dùng có nhấn vào cột nút "Xóa" không
+			if (e.ColumnIndex == dataGridView1.Columns["Xóa"].Index && e.RowIndex >= 0)
+			{
+				// Hiển thị thông báo xác nhận
+				DialogResult dialogResult = MessageBox.Show("Bạn có chắc chắn muốn xóa hàng này?", "Xác nhận", MessageBoxButtons.YesNo);
+				if (dialogResult == DialogResult.Yes)
+				{
+					// Xóa hàng
+					dataGridView1.Rows.RemoveAt(e.RowIndex);
+				}
+			}
+		}
 		public void s()
 		{
+			//tạo thêm cột
 			listView1.Columns.Add("Mã hàng", 100);
 			listView1.Columns.Add("Tên hàng", 150);
 			listView1.Columns.Add("Giá", 70);
+
+			//tạo nhóm
 			ListViewGroup group1 = new ListViewGroup("Nhóm 1", HorizontalAlignment.Left);
 			ListViewGroup group2 = new ListViewGroup("Nhóm 2", HorizontalAlignment.Left);
 			ListViewGroup group3 = new ListViewGroup("Nhóm 3", HorizontalAlignment.Left);
+			//thêm nhóm vào list view
 			listView1.Groups.Add(group1);
 			listView1.Groups.Add(group2);
 			listView1.Groups.Add(group3);
+			Button btnDelete = new Button();
 
 			ListViewItem item1 = new ListViewItem("MH001", "Quần áo");
 			item1.SubItems.Add("Quần áo");
 			item1.SubItems.Add("150.000");
+		
 			item1.Group = group1; // Đặt vào nhóm 1
 
 			ListViewItem item2 = new ListViewItem("MH002");
