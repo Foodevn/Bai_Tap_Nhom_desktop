@@ -30,7 +30,7 @@
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu));
 			this.panelMenu = new System.Windows.Forms.Panel();
-			this.button4 = new System.Windows.Forms.Button();
+			this.btnBaocao = new System.Windows.Forms.Button();
 			this.btnTroGiup = new System.Windows.Forms.Button();
 			this.btnDSmatHang = new System.Windows.Forms.Button();
 			this.btnHoaDon = new System.Windows.Forms.Button();
@@ -38,9 +38,11 @@
 			this.panelLogo = new System.Windows.Forms.Panel();
 			this.label1 = new System.Windows.Forms.Label();
 			this.panelTitleBar = new System.Windows.Forms.Panel();
+			this.btnThoat = new System.Windows.Forms.Button();
 			this.btnCloseChildForm = new System.Windows.Forms.Button();
 			this.lblTitle = new System.Windows.Forms.Label();
 			this.panelDesktop = new System.Windows.Forms.Panel();
+			this.button1 = new System.Windows.Forms.Button();
 			this.panelMenu.SuspendLayout();
 			this.panelLogo.SuspendLayout();
 			this.panelTitleBar.SuspendLayout();
@@ -49,7 +51,8 @@
 			// panelMenu
 			// 
 			this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-			this.panelMenu.Controls.Add(this.button4);
+			this.panelMenu.Controls.Add(this.button1);
+			this.panelMenu.Controls.Add(this.btnBaocao);
 			this.panelMenu.Controls.Add(this.btnTroGiup);
 			this.panelMenu.Controls.Add(this.btnDSmatHang);
 			this.panelMenu.Controls.Add(this.btnHoaDon);
@@ -58,28 +61,28 @@
 			this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
 			this.panelMenu.Location = new System.Drawing.Point(0, 0);
 			this.panelMenu.Name = "panelMenu";
-			this.panelMenu.Size = new System.Drawing.Size(254, 695);
+			this.panelMenu.Size = new System.Drawing.Size(254, 740);
 			this.panelMenu.TabIndex = 0;
 			// 
-			// button4
+			// btnBaocao
 			// 
-			this.button4.BackColor = System.Drawing.Color.Transparent;
-			this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-			this.button4.FlatAppearance.BorderSize = 0;
-			this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-			this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-			this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button4.Location = new System.Drawing.Point(0, 288);
-			this.button4.Name = "button4";
-			this.button4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-			this.button4.Size = new System.Drawing.Size(254, 52);
-			this.button4.TabIndex = 5;
-			this.button4.Text = "button1";
-			this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-			this.button4.UseVisualStyleBackColor = false;
-			this.button4.Click += new System.EventHandler(this.button4_Click);
+			this.btnBaocao.BackColor = System.Drawing.Color.Transparent;
+			this.btnBaocao.Dock = System.Windows.Forms.DockStyle.Top;
+			this.btnBaocao.FlatAppearance.BorderSize = 0;
+			this.btnBaocao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnBaocao.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.btnBaocao.Image = ((System.Drawing.Image)(resources.GetObject("btnBaocao.Image")));
+			this.btnBaocao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnBaocao.Location = new System.Drawing.Point(0, 288);
+			this.btnBaocao.Name = "btnBaocao";
+			this.btnBaocao.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+			this.btnBaocao.Size = new System.Drawing.Size(254, 52);
+			this.btnBaocao.TabIndex = 5;
+			this.btnBaocao.Text = "     Báo cáo";
+			this.btnBaocao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.btnBaocao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnBaocao.UseVisualStyleBackColor = false;
+			this.btnBaocao.Click += new System.EventHandler(this.button4_Click);
 			// 
 			// btnTroGiup
 			// 
@@ -95,7 +98,7 @@
 			this.btnTroGiup.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
 			this.btnTroGiup.Size = new System.Drawing.Size(254, 52);
 			this.btnTroGiup.TabIndex = 4;
-			this.btnTroGiup.Text = "     Trợ Giúp";
+			this.btnTroGiup.Text = "     Nhập hàng";
 			this.btnTroGiup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.btnTroGiup.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btnTroGiup.UseVisualStyleBackColor = false;
@@ -155,7 +158,7 @@
 			this.btnNguoidung.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
 			this.btnNguoidung.Size = new System.Drawing.Size(254, 52);
 			this.btnNguoidung.TabIndex = 1;
-			this.btnNguoidung.Text = "     Người dùng";
+			this.btnNguoidung.Text = "     Giỏ hàng";
 			this.btnNguoidung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			this.btnNguoidung.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 			this.btnNguoidung.UseVisualStyleBackColor = false;
@@ -186,13 +189,30 @@
 			// panelTitleBar
 			// 
 			this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+			this.panelTitleBar.Controls.Add(this.btnThoat);
 			this.panelTitleBar.Controls.Add(this.btnCloseChildForm);
 			this.panelTitleBar.Controls.Add(this.lblTitle);
 			this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
 			this.panelTitleBar.Location = new System.Drawing.Point(254, 0);
 			this.panelTitleBar.Name = "panelTitleBar";
-			this.panelTitleBar.Size = new System.Drawing.Size(1066, 80);
+			this.panelTitleBar.Size = new System.Drawing.Size(1084, 80);
 			this.panelTitleBar.TabIndex = 1;
+			// 
+			// btnThoat
+			// 
+			this.btnThoat.BackColor = System.Drawing.Color.Transparent;
+			this.btnThoat.Dock = System.Windows.Forms.DockStyle.Right;
+			this.btnThoat.FlatAppearance.BorderSize = 0;
+			this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.btnThoat.ForeColor = System.Drawing.Color.Transparent;
+			this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
+			this.btnThoat.Location = new System.Drawing.Point(1016, 0);
+			this.btnThoat.Name = "btnThoat";
+			this.btnThoat.Size = new System.Drawing.Size(68, 80);
+			this.btnThoat.TabIndex = 2;
+			this.btnThoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.btnThoat.UseVisualStyleBackColor = false;
+			this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
 			// 
 			// btnCloseChildForm
 			// 
@@ -216,7 +236,7 @@
 			this.lblTitle.AutoSize = true;
 			this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
 			this.lblTitle.ForeColor = System.Drawing.SystemColors.Control;
-			this.lblTitle.Location = new System.Drawing.Point(451, 19);
+			this.lblTitle.Location = new System.Drawing.Point(460, 19);
 			this.lblTitle.Name = "lblTitle";
 			this.lblTitle.Size = new System.Drawing.Size(99, 31);
 			this.lblTitle.TabIndex = 0;
@@ -227,21 +247,41 @@
 			this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.panelDesktop.Location = new System.Drawing.Point(254, 80);
 			this.panelDesktop.Name = "panelDesktop";
-			this.panelDesktop.Size = new System.Drawing.Size(1066, 615);
+			this.panelDesktop.Size = new System.Drawing.Size(1084, 660);
 			this.panelDesktop.TabIndex = 2;
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.Transparent;
+			this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+			this.button1.FlatAppearance.BorderSize = 0;
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+			this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+			this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.button1.Location = new System.Drawing.Point(0, 340);
+			this.button1.Name = "button1";
+			this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+			this.button1.Size = new System.Drawing.Size(254, 52);
+			this.button1.TabIndex = 6;
+			this.button1.Text = "     Người dùng";
+			this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// menu
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-			this.ClientSize = new System.Drawing.Size(1320, 695);
+			this.ClientSize = new System.Drawing.Size(1338, 740);
 			this.Controls.Add(this.panelDesktop);
 			this.Controls.Add(this.panelTitleBar);
 			this.Controls.Add(this.panelMenu);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.MinimumSize = new System.Drawing.Size(1338, 740);
 			this.Name = "menu";
-			this.Text = "menu";
 			this.panelMenu.ResumeLayout(false);
 			this.panelLogo.ResumeLayout(false);
 			this.panelLogo.PerformLayout();
@@ -256,7 +296,7 @@
 		private System.Windows.Forms.Panel panelMenu;
 		private System.Windows.Forms.Panel panelLogo;
 		private System.Windows.Forms.Button btnNguoidung;
-		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.Button btnBaocao;
 		private System.Windows.Forms.Button btnTroGiup;
 		private System.Windows.Forms.Button btnDSmatHang;
 		private System.Windows.Forms.Button btnHoaDon;
@@ -265,5 +305,7 @@
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Panel panelDesktop;
 		private System.Windows.Forms.Button btnCloseChildForm;
+		private System.Windows.Forms.Button btnThoat;
+		private System.Windows.Forms.Button button1;
 	}
 }

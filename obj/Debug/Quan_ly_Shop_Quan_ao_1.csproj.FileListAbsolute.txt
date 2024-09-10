@@ -22,3 +22,6 @@ C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\XemLaiHoaDon.F
 C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\XemLaiHoaDon.FrmXemLaiHoaDon.resources
 C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Chitietphieunhau.FormDanhMucHangSapHet.resources
 C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\Chitietphieunhau.FormQuanLyTaiKhoanNguoiDung.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\quanlyshopquanao.Lapphieunhaphangmoi.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\quanlyshopquanao.Themmathangmoi.resources
+C:\Users\HOANG PHUC\source\repos\Quan_ly_Shop_Quan_ao_1\obj\Debug\quanlyshopquanao.Xemlaiphieunhaphang.resources

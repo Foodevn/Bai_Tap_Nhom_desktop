@@ -1,5 +1,6 @@
 ﻿using Chitietphieunhau;
 using quan_ly_shop_quan_ao;
+using quanlyshopquanao;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -96,11 +97,11 @@ namespace Quan_ly_Shop_Quan_ao_1
 
 		private void btnTroGiup_Click(object sender, EventArgs e)
 		{
-			ActivateButton(sender);
+			OpenChildForm(new Lapphieunhaphangmoi(), sender);
 		}
 		private void button4_Click(object sender, EventArgs e)
 		{
-			OpenChildForm(new test(), sender);
+			OpenChildForm(new FormBaoCaoDanhThu(), sender);
 		}
 		private void OpenChildForm(Form childForm, object btnSender)
 		{
@@ -134,6 +135,23 @@ namespace Quan_ly_Shop_Quan_ao_1
 			if (activeForm != null)
 				activeForm.Close();
 			Reset();
+		}
+
+		private void btnThoat_Click(object sender, EventArgs e)
+		{
+			this.Close();
+			
+
+			
+
+			
+			
+
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			OpenChildForm(new FormQuanLyTaiKhoanNguoiDung(), sender);
 		}
 
 		//private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
